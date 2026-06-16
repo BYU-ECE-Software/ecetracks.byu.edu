@@ -31,9 +31,10 @@ const Header: React.FC = () => {
               aria-controls="mobile-menu"
               onClick={() => setMobileOpen((v) => !v)}
             >
-              <span className="text-xl" aria-hidden="true">
+              {/* No need for a hamburger menu, just use the back button in your browser. */}
+              {/* <span className="text-xl" aria-hidden="true">
                 {mobileOpen ? '✕' : '☰'}
-              </span>
+              </span> */}
             </button>
           </div>
         </div>

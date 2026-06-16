@@ -25,14 +25,14 @@ export default async function ItemPage({ params }: PageProps) {
   return (
     <main className="mx-auto max-w-3xl px-6 py-12">
       <Link
-        href={`/supertracks/${slug}`}
+        href={`/${slug}`}
         className="mb-6 inline-block text-sm text-blue-600 hover:underline"
       >
         ← Back to {supertrack.title}
       </Link>
       {item.image && (
         <div className="relative mb-6 h-64 w-full overflow-hidden rounded-xl">
-          <Image src={item.image} alt={item.title} fill className="object-cover" />
+          <Image src={item.image} alt={item.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover" />
         </div>
       )}
       <h1 className="mb-2 text-3xl font-bold text-gray-900">{item.title}</h1>

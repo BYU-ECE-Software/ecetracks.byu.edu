@@ -76,7 +76,7 @@ export const supertracks: CardItem[] = [
 export const supertrackItems: Record<string, SupertrackData> = {
   "autonomous-systems": {
     title: "Autonomous Systems",
-    description: "Visual design explorations and case studies.",
+    description: "Automating the world around you, from self-driving cars to smart homes.",
     items: [
       {
         title: "Internet Of Things",
@@ -145,7 +145,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   communications: {
     title: "Communications",
-    description: "Technical deep dives and architecture notes.",
+    description: "Getting information from one place to another, reliably and securely.",
     items: [
       
         {
@@ -215,7 +215,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   cybersecurity: {
     title: "Cybersecurity",
-    description: "Essays, articles, and long-form posts.",
+    description: "Protecting digital information and systems from unauthorized access and attacks.",
     items: [
       {
         title: "Network Security",
@@ -291,7 +291,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   "high-performance-computing": {
     title: "High-Performance Computing",
-    description: "Essays, articles, and long-form posts.",
+    description: "Working with advanced computing architectures to solve large-scale, data-intensive problems.",
     items: [
       {
         title: "FPGA Design",
@@ -353,7 +353,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   robotics: {
     title: "Robotics",
-    description: "Essays, articles, and long-form posts.",
+    description: "Exploring the design and implementation of robotic systems.",
     items: [
       {
         title: "Robotics Programming",
@@ -387,7 +387,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   "artificial-intelligence": {
     title: "Artificial Intelligence",
-    description: "Essays, articles, and long-form posts.",
+    description: "Exploring the frontiers of intelligent systems and their applications.",
     items: [
       {
         title: "Machine Learning",
@@ -421,7 +421,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   energy: {
     title: "Energy",
-    description: "Essays, articles, and long-form posts.",
+    description: "Exploring the technologies that power sustainable and efficient energy systems.",
     items: [
       {
         title: "Electric Vehicles",
@@ -469,7 +469,7 @@ export const supertrackItems: Record<string, SupertrackData> = {
   },
   biotechnology: {
     title: "Biotechnology",
-    description: "Essays, articles, and long-form posts.",
+    description: "Exploring the intersection of biology and technology to develop innovative solutions.",
     items: [
       {
         title: "Biomedical Engineering",
